@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Procad</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example">
+    
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Procad</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Especificações</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Voltar a principal</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <form>
+        <div class="card border-dark mb-3">
+          <h5 class="card-header" style="background-color: gray;">Dados Pessoais</h5>
+            <div class="card-body">
+            <div class="row g-2">
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nome" value="Nome">
+                    <label for="floatingInputGrid" id="dp">Nome do requerente</label>
+                  </div>
+                </div>
+                <br>
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInputGrid" placeholder="Registro" value="Registro">
+                    <label for="floatingInputGrid">Registro ORCID</label>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="col-md">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingInputGrid" placeholder="Endereço" value="Endereço">
+                  <label for="floatingInputGrid">Endereço</label>
+                </div>
+                <br>
+                <div class="row g-2">
+                    <div class="col-md">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInputGrid" placeholder="Bairro" value="bairro">
+                        <label for="floatingInputGrid">Bairro</label>
+                      </div>
+                    </div>
+                    <div class="col-md">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInputGrid" placeholder="Cep" value="Cep">
+                        <label for="floatingInputGrid">CEP</label>
+                      </div>
+                    </div>
+                  <div class="col-md">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInputGrid" placeholder="Cidade" value="Cidade">
+                        <label for="floatingInputGrid">Cidade</label>
+                      </div>
+                    </div>
+                  </div>
+                <br>
+                <div class="row g-2">
+                    <div class="col-md">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInputGrid" placeholder="Telefone" value="Telefone">
+                        <label for="floatingInputGrid">Telefone</label>
+                      </div>
+                    </div>
+                    <div class="col-md">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInputGrid" placeholder="Celular" value="Celular">
+                        <label for="floatingInputGrid">Celular</label>
+                      </div>
+                    </div>
+                  <div class="col-md">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInputGrid" placeholder="Email" value="Email">
+                        <label for="floatingInputGrid">Email</label>
+                      </div>
+                    </div>
+                  </div>              
+            </div>
+        </div>
+    </div>
+    </form>
+    
+    <form>
+        <div class="card border-dark mb-3">
+          <h5 class="card-header" style="background-color: gray;">Dados Funcionais</h5>
+            <div class="card-body">
+            <div class="row g-2">
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInputGrid" placeholder="Unidade" value="Unidade">
+                    <label for="floatingInputGrid" id="dp">Unidade</label>
+                  </div>
+                </div>
+                <br>
+                <div class="col-md">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInputGrid" placeholder="Departamento" value="Departamento/Setor">
+                    <label for="floatingInputGrid">Departamento/Setor</label>
+                  </div>
+                </div>
+              </div>
+              <br>
+                <div class="row g-2">
+                    <div class="col-md">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInputGrid" placeholder="Matricula" value="Matricula">
+                        <label for="floatingInputGrid">Matricula</label>
+                      </div>
+                    </div>
+                    <div class="col-md">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInputGrid" placeholder="Data" value="Data">
+                        <label for="floatingInputGrid">Data</label>
+                      </div>
+                    </div>
+                  <div class="col-md">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInputGrid" placeholder="ch total" value="ch total">
+                        <label for="floatingInputGrid">Ch total</label>
+                      </div>
+                    </div>
+                  </div>
+                  </div>              
+            </div>
+        </div>
+    </div>
+</form>
+
+<button type="button" class="btn btn-dark">Salvar</button>
+<button type="button" class="btn btn-success">Gerar</button>
+
+
+
+</body>
+</html>
+    
